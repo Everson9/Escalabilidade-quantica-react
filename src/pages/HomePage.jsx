@@ -14,7 +14,7 @@ const HomePage = () => {
             <span className="block mb-2 animate-fade-in text-white">
               Computação clássica calcula
             </span>
-            <span className="block text-blue-400 animate-fade-in animation-delay-500 text-right">
+            <span className="block text-white-400 animate-fade-in animation-delay-500 text-right ">
               a quântica transforma.
             </span>
           </h1>
