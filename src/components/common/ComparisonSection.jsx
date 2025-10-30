@@ -7,15 +7,11 @@ const ComparisonSection = () => {
       to: "#" // Link placeholder já que essa página não existe
     },
     {
-      title: "Fundamentos Matemáticos",
-      to: "/fundamentos"
-    },
-    {
-      title: "Problema Financeiro", 
+      title: "Escabalidade Financeira", 
       to: "#" // Link placeholder já que essa página não existe
     },
     {
-      title: "Problema do Caixeiro Viajante",
+      title: "Roteamento aéreo",
       to: "#" // Link placeholder já que essa página não existe
     }
   ];

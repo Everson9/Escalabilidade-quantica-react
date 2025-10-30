@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12 mt-auto">
@@ -26,6 +27,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold mb-4">Links Úteis</h3>
             <ul className="space-y-2 text-gray-300">
+
               <li>
                 <a 
                   href="https://www.accenture.com/br-pt/support/privacy-policy" 
@@ -85,9 +87,28 @@ const Footer = () => {
                 >
                   Contato
                 </a>
+                
+
+
+
               </li>
             </ul>
           </div>
+        </div>
+
+        <div
+        >
+          <h3 className="text-xl font-semibold mb-4">Referência Técnica</h3>
+          <li
+        >
+                  
+  <Link 
+    to="/fundamentos" 
+    className= "hover:text-white transition-colors duration-200 "
+  >
+    Fundamentos Matemáticos
+  </Link>
+</li>
         </div>
 
         {/* Copyright */}
@@ -95,6 +116,7 @@ const Footer = () => {
           <p>&copy; 2025 Accenture. All Rights Reserved.</p>
         </div>
       </div>
+
     </footer>
   );
 };
